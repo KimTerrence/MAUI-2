@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KimTerrence_Activity2.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Label Text="Enter Your Name" />
+            <Entry x:Name="fname" />
+            <Label Text="Enter College" />
+            <Entry x:Name="col" />
+            <Button Text="Submit"  Clicked="handleSubmit"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
