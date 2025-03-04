@@ -2,7 +2,8 @@ Module Content Redeclaration
 
 Design a resource that contains the following specifications:
 
-
--Collects data through parameters.
--Redeclares and reidentifies the parameters through local variables.
--Load the data in a new page.
+<ul>
+  <li>Collects data through parameters.</li>
+  <li>Redeclares and reidentifies the parameters through local variables.</li>
+  <li>Load the data in a new page.</li>
+</ul>
